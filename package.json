@@ -1,18 +1,26 @@
 {
-  "name": "quiz_app",
+  "name": "quiz-app",
+  "homepage": "https://h-ashish.github.io/quiz-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@mdi/font": "^5.9.55",
     "@testing-library/jest-dom": "^5.12.0",
-    "@testing-library/react": "^11.2.7",
+    "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",
+    "classnames": "^2.3.1",
+    "materialize-css": "^1.0.0",
+    "node-sass": "^6.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "^1.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -34,5 +42,20 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  },
+  "description": "This is a quiz-app designed and developed with ReactJS. This website focuses on customer friendly experience.  The website is responsive and mobile friendly. It comes with a timer feature which automatically exits the quiz after the time is up.  \"# quiz_app\"",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Munna2816/quiz_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Munna2816/quiz_app/issues"
   }
 }
